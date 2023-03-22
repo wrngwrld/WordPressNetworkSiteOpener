@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WordPressNetworkSiteOpener
 // @namespace    https://github.com/wrngwrld
-// @version      1.0
+// @version      1.1
 // @updateURL    https://github.com/wrngwrld/WordPressNetworkSiteOpener/raw/main/WordPressNetworkSiteOpener.user.js
 // @downloadURL  https://github.com/wrngwrld/WordPressNetworkSiteOpener/raw/main/WordPressNetworkSiteOpener.user.js
 // @supportURL   https://github.com/wrngwrld/WordPressNetworkSiteOpener/issues
@@ -20,7 +20,7 @@
 
     button.addEventListener("click", () => {
       if (
-        confirm("Alle Tabs öffnen?")
+        confirm("Really open all websites?")
       ) {
         const allLinks = document.querySelectorAll(".visit");
         allLinks.forEach((el) => {
@@ -37,7 +37,7 @@
     const attachBtn = document.querySelector(".bulkactions");
 
     button.classList.add("button");
-    button.innerHTML = "Alle Seiten in neuen Tab öffnen";
+    button.innerHTML = "Open all websites";
 
     attachBtn.appendChild(button);
     return button;
