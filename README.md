@@ -3,7 +3,7 @@ WordPressNetworkSiteOpener
 
 # Installation
 1. install the tampermonkey browser extension
-2. Copy the contents of [https://github.com/Runisco/BunkrSorter/raw/main/BunkrSorter.user.js](https://github.com/wrngwrld/WordPressNetworkSiteOpener/raw/main/WordPressNetworkSiteOpener.user.js) into a new script in Tampermonkey overwriting anything else and then save. 
+2. Copy the contents of https://github.com/wrngwrld/WordPressNetworkSiteOpener/raw/main/WordPressNetworkSiteOpener.user.js into a new script in Tampermonkey overwriting anything else and then save. 
 
 # Usage
 Open the networkpage of a WordPress Network and click on "Open all websites"
